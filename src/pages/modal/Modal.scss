@@ -1,0 +1,36 @@
+.Modal {
+  position: fixed;
+  z-index: 200;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  min-height: 50%;
+  border-radius: 5px;
+}
+
+.ModalOpen {
+  display: block;
+}
+
+.ModalClosed {
+  display: none;
+}
+
+.Backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.checkbox {
+  margin: 0 10px;
+}

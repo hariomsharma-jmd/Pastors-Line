@@ -1,0 +1,29 @@
+// Override default variables before the import
+$body-bg: #fff;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  text-decoration: none;
+  background-color: #46139f;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #46139f;
+  cursor: pointer;
+  align-self: center;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #6e44b7;
+  border-color: #6e44b7;
+}
